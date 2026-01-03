@@ -80,8 +80,9 @@ curl https://jsonplaceholder.typicode.com/posts
 Fetching Only Headers
 curl -I https://jsonplaceholder.typicode.com/posts
 Making a POST Request
-curl -X POST -d "title=foo&body=bar&userId=1" https://jsonplaceholder.typicode.com/posts
+curl -X POST -d "title=foo&body=bar&userId=1" https://jsonplaceholder.typicode.com/posts 
 Conclusion
 
 curl is a powerful tool for interacting with web servers and APIs.
+---
 It allows sending different HTTP requests and inspecting responses directly from the command line.
